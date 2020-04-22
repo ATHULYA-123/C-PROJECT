@@ -1,0 +1,278 @@
+#include<stdio.h>
+#include<conio.h>
+void main () 
+{
+  
+ 
+int a, b, i, flag = 0;
+  
+ 
+int p, r;
+  
+ 
+char q, s, t;
+  
+
+  
+ 
+printf ("                                             \n \n\n\n \n********************CrAcK ThE CoDe*********************** \n\n\n\n\n          ");
+  
+ 
+printf 
+    ("   Press 1:To play the game.\n   Press 2:For help.\n   Press 3: To exit the game\n");
+  
+ 
+scanf ("%d", &a);
+  
+ 
+if (a == 1)
+    
+ 
+    {
+      
+printf ("                               \nLevel EASY\n");
+      
+ 
+printf 
+	("   First Question:\n* 2 3 1 :One no: is correct and correctly placed. \n*  5 7 6: Two no:s are correct but wrongly placed.\n* 6 3 1:Nothing is correct.\nEnter: ");
+      
+scanf ("%d", &b);
+      
+ 
+if (b == 257)
+	
+ 
+	{
+	  
+printf ("You won the first question.\n");
+	  
+ 
+flag = 1;
+	  
+ 
+printf 
+	    ("   Second Question:\n*6 2 1:One no: is correct but wrongly placed.\n*1 3 2:Nothing is correct.\n*4 5 1:Two no:s are correct and correctly placed.\nEnter:");
+	  
+ 
+scanf ("%d", &b);
+	  
+ 
+if (b == 456)
+	    
+ 
+	    {
+	      
+printf ("You won the second question.\n\n");
+	      
+ 
+flag = 1;
+	      
+ 
+printf 
+		("   Third Question:\n*1 3 2:Two no:s are correct but wrongly placed.\n*6 1 4:One is correct and correctly.\nEnter:");
+	      
+ 
+scanf ("%d", &b);
+	      
+ 
+if (b == 324)
+		
+ 
+		{
+		  
+printf ("   You won this level.\n\n\n\n");
+		  
+ 
+flag = 1;
+		
+ 
+}
+	    
+}
+	
+}
+      
+ 
+if (flag == 1)
+	
+ 
+	{
+	  
+ 
+printf ("                              Level MEDIUM\n");
+	  
+ 
+printf 
+	    ("   First Question:\n*2 1 3:One no:is correct but wrongly placed.\n*6 4 5:Two no:s are correct but wrongly placed.\n*7 4 3:Nothing is correct.\n*5 8 9:One no: is correct and correctly placed.\nEnter: ");
+	  
+ 
+for (i = 1; i <= 2; i++)
+	    
+	    {
+	      
+ 
+scanf ("%d", &b);
+	      
+ 
+if (b == 562)
+		
+ 
+		{
+		  
+flag = 1;
+		  
+ 
+printf ("\n   You won this question.\n\n");
+		  
+ 
+break;
+		
+}
+	      
+ 
+printf ("   You got two chances.\n");
+	    
+}
+	}
+      
+ 
+if (flag == 1)
+ 
+	{
+	  
+printf 
+	    ("   Second question:\n*2 1 6:One no:is correct and is well placed.\n*6 5 2:Two no:s are correct but wrongly placed.\n*6 3 1:Nothing is correct.\n*3 5 0:Two no:s are correct but wrongly placed.\nEnter: ");
+	  
+ 
+for (i = 1; i <= 2; i++)
+	    
+	    {
+	      
+ 
+scanf ("%d", &b);
+	      
+ 
+if (b == 205)
+		
+ 
+		{
+		  
+flag = 1;
+		  
+ 
+printf ("\n   You won this level.\n\n\n\n");
+		  
+ 
+break;
+		
+}
+	      
+ 
+printf ("   You got two chances.\n");
+	    
+}
+	}
+      
+ 
+if (flag == 1)
+	
+ 
+	{
+	  printf ("                 Level HARD\n");
+	  printf("Hint:Choose capitals.");
+ 
+printf 
+	    ("*\nA B 2 4 3:Three no:s are correct but wrongly placed.\nC 6 E 5 D:One no: is correct but wrongly placed.\n1 Q S R P:One no: is correct and correctly placed.\n4 P 5 Q 3:Nothing is correct.\n1 E S R C:Two no:s are correct and correctly plaxced.\n4 P 2 Q R:One no: is correct and correctly placed.\nEnter: ");
+	  
+ 
+printf ("   Enter the code: ");
+	  
+ 
+	  {
+	    for (i = 1; i <= 2; i++)
+	      
+	      {
+		
+ 
+scanf ("%d %c %d %c %c", &p, &q, &r, &s, &t);
+		
+ 
+if (p == 1 && q == 'A' & r == 2 && s == 'B' && t == 'C')
+		  
+ 
+		  {
+		    
+flag = 1;
+		    
+ 
+printf ("\n   You won this level.\n\n");
+		    
+ 
+break;
+		  
+}
+		
+ 
+printf ("   You got two chances.\n");
+	      
+}
+	  }
+	  
+ 
+if (flag == 1)
+	    
+ 
+	    {
+	      
+printf 
+		("\n\n\n\n\n   You won the game and we think you are genius.\nIf You liked our game ,go to playstore and download CRACK THE CODE and become a code ninja.");
+	    
+ 
+}
+	  
+ 
+	  else
+	    
+ 
+	    {
+	      
+printf 
+		(" \n\n\n\n\n  Oops! Its okay.You could develop your skills by practicing.\nDownload our app CRACK THE CODE from playstore and become a pro.");
+	    
+ 
+}
+	
+ 
+ 
+}
+      
+ 
+      else if (a == 2)
+	
+ 
+	{
+	  
+printf 
+	    ("\nThe game consists of three levels:EASY<MEDIUM<HARD.\nRead the hints given and crack the code.\n");
+	
+ 
+}
+      
+ 
+       if (a == 3)
+	
+ 
+	{
+	  
+printf ("\nNot playing the game(:");
+	
+}
+      
+ 
+     
+	
+
+ 
+}
+} 
+ 
