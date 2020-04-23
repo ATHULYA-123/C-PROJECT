@@ -87,8 +87,20 @@ flag = 1;
 		
  
 }
+ 
+}  else
 	    
+ 
+	    {
+	      
+printf 
+		(" \n\n\n\n\n  Oops! Its okay.You could develop your skills by practicing.\nDownload our app CRACK THE CODE from playstore and become a pro.");
+	    
+ 
 }
+
+	    
+
 	
 }
       
@@ -134,6 +146,17 @@ printf ("   You got two chances.\n");
 	    
 }
 	}
+	  else
+	    
+ 
+	    {
+	      
+printf 
+		(" \n\n\n\n\n  Oops! Its okay.You could develop your skills by practicing.\nDownload our app CRACK THE CODE from playstore and become a pro.");
+	    
+ 
+}
+
       
  
 if (flag == 1)
@@ -171,7 +194,17 @@ break;
 printf ("   You got two chances.\n");
 	    
 }
-	}
+	}  else
+	    
+ 
+	    {
+	      
+printf 
+		(" \n\n\n\n\n  Oops! Its okay.You could develop your skills by practicing.\nDownload our app CRACK THE CODE from playstore and become a pro.");
+	    
+ 
+}
+
       
  
 if (flag == 1)
@@ -267,12 +300,10 @@ printf
 printf ("\nNot playing the game(:");
 	
 }
+}}
       
  
      
 	
 
- 
-}
-} 
  
